@@ -21,15 +21,15 @@ public class MainFrame extends JFrame{
         initComp();
     }
     private void initComp(){
-        this.setBounds(100,100,500,400);
+        this.setBounds(300,300,500,400);
         this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         cp=this.getContentPane();
         cp.setLayout(new BorderLayout(3,3));
         cp.add(jpnc,BorderLayout.CENTER);
         cp.add(jspL,BorderLayout.WEST);
         cp.add(jspR,BorderLayout.EAST);
-        jtaL.setPreferredSize(new Dimension(200,5000));
-        jtaR.setPreferredSize(new Dimension(200,5000));
+        jtaL.setPreferredSize(new Dimension(175,5000));
+        jtaR.setPreferredSize(new Dimension(175,5000));
         jtaL.setLineWrap(true);
         jtaR.setLineWrap(true);
         jpnc.add(jb1);
